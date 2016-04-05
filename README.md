@@ -7,6 +7,9 @@ What is this?
 This is a template to help you get a 
 [Flask](http://flask.pocoo.org/) app running on
 [Heroku](https://www.heroku.com/).
+That also supports JSON Web Tokens (JWT)
+Based on notes from https://auth0.com/docs/server-apis/python
+
 
 It is based on [flask_heroku](github.com/zachwill/flask_heroku)
 
@@ -33,8 +36,7 @@ To clear the git history, remove the .git/ folder
     rm -rf .git/
 
 
-For your convenience, the project ships with a virtualenv script which means you
-can quickly create a virtual environment using the following commands
+For your convenience, the project ships with a virtualenv script which means you can quickly create a virtual environment using the following commands
 
     python virtualenv.py --no-site-packages venv
     source venv/bin/activate
